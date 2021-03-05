@@ -247,13 +247,11 @@ ol {
 .work-list {
   display: flex;
 }
-
-.work-list.item {
+.work-list .item {
   width: calc(100%/3-60px);
   margin-right: 30px;
 } 
-
- .work-list.item  :last-child {
+ .work-list .item :last-child {
   margin-right: 0;
 }
 
