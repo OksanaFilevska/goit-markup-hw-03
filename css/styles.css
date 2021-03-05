@@ -215,7 +215,7 @@ ol {
 .feature-list .feature-list-item {
   width: calc(100%/4-90px);
   margin-right: 30px;
-  margin-left: 0;
+  
 }
 .feature-list .feature-list-item:last-child {
   margin-right: 0;
