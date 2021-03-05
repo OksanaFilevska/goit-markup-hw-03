@@ -17,6 +17,20 @@ body {
   color: var(--primary-text-colour);
   font-family: var(--main-font);
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul, {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -26,6 +40,24 @@ body {
 .address {
   font-style: normal;
 }
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* COMPONENTS */
 .modal-btn {
   font-weight: 700;
@@ -67,10 +99,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  display: inline-block;
 }
 .logo-f {
   color: var(--secondary-title-text-colour);
   font-weight: bold;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-web {
   font-size: 26px;
@@ -79,6 +115,7 @@ body {
 }
 .logo-2 {
   color: var(--primary-bg-colour);
+  margin-bottom: 20px;
 }
 .work-title {
   font-weight: 700;
@@ -90,6 +127,30 @@ body {
 }
 /*  END COMPONENTS  */
 /*  HEADER  */
+.header .container {
+  display: flex;
+  align-items: center;
+}.navigation {
+  display: flex;
+  align-items: center;  
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
 .navigation-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -97,6 +158,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-colour);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .navigation-link1 {
   font-family: var(--main-font);
@@ -105,6 +169,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-title-text-colour);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .navigation-1 {
   font-family: var(--main-font);
@@ -113,6 +180,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--footer-colour);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .navigation-2 {
   font-family: var(--main-font);
@@ -121,6 +191,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-colour);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .navigation-link1:hover,
 .navigation-link1:focus,
