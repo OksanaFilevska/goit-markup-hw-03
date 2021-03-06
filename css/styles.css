@@ -10,7 +10,7 @@
   --accent-colour: #2196f3;
   --fourth-bg-colour: #f5f4fa;
   --footer-colour: rgba(255, 255, 255, 0.6);
-  --our-team-color: #e5e5e5;
+  --our-team-color: #f5f4fa;
 }
 body {
   background-color: var(--primary-bg-colour);
