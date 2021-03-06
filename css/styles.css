@@ -28,6 +28,7 @@ ol {
   margin: 0;
   padding: 0;
 }
+
 .img {
   display: block;
 }
@@ -162,10 +163,8 @@ ol {
 .hero {
   background-color: var(--secondary-bg-colour);
   text-align: center;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 94px;
 }
+
 .hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -207,15 +206,15 @@ ol {
 /*  END HERO  */
 /*     SOFTSKILLS    */
 .feature {
-  margin-bottom: 94px;
+  margin-top: 94px;
 }
 .container .feature-list {
   display: flex;
 }
 .feature-list .feature-list-item {
-  width: calc(100%/4-90px);
+  width: calc((100%-90px) / 4);
   margin-right: 30px;
-
+  margin-left: 0;
 }
 .feature-list .feature-list-item:last-child {
   margin-right: 0;
@@ -268,8 +267,8 @@ ol {
 .team-list {
   display: flex;
 }
-.team-list .team-list-item {
-  width: calc(100%/4-90px);
+.team-list .team-list-item  {
+  width: calc((100% - 90px) / 4);
   margin-right: 30px;
   background: var(--primary-bg-colour);
 
@@ -285,9 +284,7 @@ ol {
   text-align: center;
 }
 
-.team-list-img {
-  margin-bottom: 30px;
-}
+
 .team-list-title {
   font-weight: 500;
   font-size: 16px;
