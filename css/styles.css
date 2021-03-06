@@ -284,7 +284,7 @@ ol {
 }
 
 .image {
-  padding: 30px 40 px;
+  padding: 30px 35px;
   text-align: center;
 }
 
@@ -332,7 +332,7 @@ ol {
   color: var(--title-text-colour);
   }
 
-.navigation-item:not(:last-child) 
+.navigation-item-1:not(:last-child) 
 {
     margin-bottom: 9px;
   }
@@ -367,6 +367,7 @@ ol {
   padding: 6px 22px;
 
   min-width: 73px;
+  border-style: none;
 }
 .modal-btn-filter:hover,
 .modal-btn-filter:focus {
