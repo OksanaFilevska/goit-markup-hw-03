@@ -206,7 +206,7 @@ ol {
 /*  END HERO  */
 /*     SOFTSKILLS    */
 .feature {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .container .feature-list {
   display: flex;
