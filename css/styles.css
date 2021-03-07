@@ -29,7 +29,7 @@ ol {
   padding: 0;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -279,7 +279,7 @@ ol {
   border-radius: 0px 0px 4px 4px;
   
 }
-.team-list .team-list-item:last-child {
+.item:last-child {
   margin-right: 0;
 }
 
